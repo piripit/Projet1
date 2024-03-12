@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 <link rel="stylesheet" href="style.css">
+	 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<title>PIZZA</title>
+</head>
+<body>
+	<nav class="box">
+		<a class ="active" href="#MENU">Accueil</a>
+		<a class="active1" href="#vovo">Menu</a>
+		<p class="lol">§§§§MRL PIZZERIA§§§§</p>
+	</nav>
+	<br>
+	<div class="box1">
+		<form id="form1">
+			<fieldset>
+			<legend>COMMANDE</legend>
+			<table>
+				<tr>
+					<th>Pizza</th>
+					<th>Prix</th>
+					<th>supplements</th>
+					<th>taille</th>
+					<th>commentaire</th>
+				</tr>
+				<tr>
+					<td>
+						<select>
+							<option>Reine</option>
+						</select>
+						<input type="number" value="0" id="nombre_pizza" name="nombre_pizza" min="0">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="reine.PNG" alt="reine" height="100">
+					</td>
+					<td>
+						<ul>
+							<p>3,00€</p>
+		    			</ul>
+					</td>
+					<td>
+						<ul>
+							<p><label>huile</label>
+							<input type="checkbox" name="huile"></p>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<label>M</label>
+							<input type="checkbox" name="M">
+							<label>L</label>
+							<input type="checkbox" name="L">
+							<label>XL</label>
+							<input type="checkbox" name="XL">
+						</ul>
+					</td>
+ 				</tr>
+		 		<tr>
+		 			<td>
+						<select>
+							<option>mozzarella</option>
+						</select>
+						<input type="number" value="0" id="nombre_pizza" name="nombre_pizza" min="0">
+					</td>
+				</tr>
+		 		<tr>
+					<td>
+						<img src="Mozzarela.PNG" alt="mozzarela" height="100">
+					</td>
+					<td>
+						<ul>
+							<p>3,00€</p>
+					    </ul>
+					</td>
+					<td>
+						<ul>
+							<p><label>huile</label>
+							<input type="checkbox" name="huile"></p>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<label>M</label>
+							<input type="checkbox" name="M">
+							<label>L</label>
+							<input type="checkbox" name="L">
+							<label>XL</label>
+							<input type="checkbox" name="XL">
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<select>
+						<option>margherita</option>
+						</select>
+						<input type="number" value="0" id="nombre_pizza" name="nombre_pizza" min="0">
+					</td>
+				</tr>
+				<tr>
+					<td>
+            			<img src="margherita.PNG" alt="margherita" height="100">
+        			</td>
+        			<td>
+						<ul>
+							<p>3,00€</p>
+					    </ul>
+					</td>
+					<td>
+						<ul>
+							<p><label>huile</label>
+							<input type="checkbox" name="huile"></p>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<label>M</label>
+							<input type="checkbox" name="M">
+							<label>L</label>
+							<input type="checkbox" name="L">
+							<label>XL</label>
+							<input type="checkbox" name="XL">
+						</ul>
+					</td>
+    			</tr>
+    	<td>
+    </table>
+    <p  class="top"style="text-decoration:underline;">COMMENTAIRES:</p>
+    <textarea id="textinput" name="textinput" rows="6"></textarea>
+	</fieldset>
+	</form>
+	</div>
+	<br>
+	<div class="3">
+		<form id="form2">
+			<fieldset>
+			<legend>DRUNK</legend>
+    	<tr>
+    	<p>Choix Boisson :
+            <select id="Boissons">
+                <option>7up</option>
+                <option>Coca</option>
+                <option>Oasis</option>
+                <option>Ice Tea</option>
+            </select>
+            <input type="number" value="1" id="nombre_boisson" name="nombre_boisson" min="1">
+            Prix: <span id="prix_boisson">2</span>&euro;
+        </p>
+    	</tr>
+    	</table>
+    	</fieldset>
+    	</form>
+    	</div>
+    	<br>
+    <form id="form3" action="tp7.html">
+    	<fieldset>
+    		<legend>Vos coordonnées</legend>
+    	<div>
+    		<label for="Nom et prenom">Nom et prenom</label>
+    		<input type="text" name="Nom et prenom" id="Nom et prenom" placeholder="Nom" required="required">
+    	</div>
+    	<div>
+    		<label for="Telephone">Telephone</label>
+    		<input type="tel" name="Telephone" id="Telephone" pattern="[0]{1}[6-7]{1}[0-9]{8}" maxlength="10" id="telephone" placeholder="0665267283" required="required">
+    	</div>
+    	<div>
+    		<label for="adresse">adresse</label>
+    		<input type="text" name="adresse" id="adresse" required="required">
+    	</div>
+    	<div>
+    		<label for="Email">Email</label>
+    		<input type="email" name="Email" id="Email" placeholder="contact@gmail.com" required="required">
+    	</div>
+    	<div>
+    		<input type="submit" value="SUBMIT ALL!" id="submit" style="border-color:gray;">
+    	</fieldset>
+    </form>
+</fieldset>
+</form>
+</body>
+</html>
