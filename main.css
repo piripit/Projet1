@@ -28,3 +28,10 @@ header {
     text-decoration: none;
     padding: 10px;
 }
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
