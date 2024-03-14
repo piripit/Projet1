@@ -1,0 +1,30 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.lien {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lien ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.lien ul li {
+    margin-right: 20px;
+}
+
+.lien ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
